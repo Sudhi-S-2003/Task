@@ -1,0 +1,237 @@
+[
+    {
+        "Sl.No": 1,
+        "name": "TaskMaster - Task Management App",
+        "description": "A task management web application where users can organize and track their tasks effectively. Built with Next.js for the frontend and MongoDB for data storage.",
+        "link": "/taskmaster",
+        "preview-img": "taskmaster",
+        "category": "Web Application",
+        "tags": [
+            "Task Management",
+            "Productivity",
+            "Next.js",
+            "MongoDB"
+        ],
+        "techStack": [
+            "Next.js",
+            "Tailwind CSS",
+            "MongoDB",
+            "Node.js",
+            "API Routes"
+        ],
+        "dummy": true,
+        "status": "In Progress",
+        "launchDate": "2024-02-10"
+    },
+    {
+        "Sl.No": 2,
+        "name": "ShopNow - E-commerce Platform",
+        "description": "An e-commerce platform enabling users to browse products and make secure payments. Developed with Next.js, MongoDB, and Stripe for payment processing.",
+        "link": "/shopnow",
+        "preview-img": "shopnow",
+        "category": "E-commerce",
+        "tags": [
+            "E-commerce",
+            "Stripe",
+            "MongoDB",
+            "Next.js"
+        ],
+        "techStack": [
+            "Next.js",
+            "Tailwind CSS",
+            "Stripe",
+            "MongoDB",
+            "Node.js",
+            "API Routes"
+        ],
+        "dummy": true,
+        "status": "Completed",
+        "launchDate": "2023-12-05"
+    },
+    {
+        "Sl.No": 3,
+        "name": "SocialSphere - Social Media App",
+        "description": "A social media platform that allows users to interact with others, post updates, and share images. Built using Next.js for SSR and MongoDB for the backend.",
+        "link": "/socialsphere",
+        "preview-img": "socialsphere",
+        "category": "Social Media",
+        "tags": [
+            "Social Network",
+            "Next.js",
+            "MongoDB",
+            "Tailwind CSS"
+        ],
+        "techStack": [
+            "Next.js",
+            "Tailwind CSS",
+            "MongoDB",
+            "Node.js",
+            "API Routes"
+        ],
+        "dummy": true,
+        "status": "Completed",
+        "launchDate": "2023-11-20"
+    },
+    {
+        "Sl.No": 4,
+        "name": "MyPortfolio - Personal Portfolio",
+        "description": "A personal portfolio site to showcase projects, skills, and achievements. Built using Next.js with Tailwind CSS for responsive design.",
+        "link": "/myportfolio",
+        "preview-img": "myportfolio",
+        "category": "Portfolio",
+        "tags": [
+            "Portfolio",
+            "Next.js",
+            "Tailwind CSS",
+            "Web Development"
+        ],
+        "techStack": [
+            "Next.js",
+            "Tailwind CSS",
+            "Node.js"
+        ],
+        "dummy": true,
+        "status": "Completed",
+        "launchDate": "2024-01-15"
+    },
+    {
+        "Sl.No": 5,
+        "name": "Blogify - Content Management System",
+        "description": "A content management system that allows users to create and manage blog posts with a simple editor interface. Powered by Next.js and MongoDB.",
+        "link": "/blogify",
+        "preview-img": "blogify",
+        "category": "CMS",
+        "tags": [
+            "CMS",
+            "Blog",
+            "Next.js",
+            "MongoDB"
+        ],
+        "techStack": [
+            "Next.js",
+            "Tailwind CSS",
+            "MongoDB",
+            "Node.js",
+            "API Routes"
+        ],
+        "dummy": true,
+        "status": "In Progress",
+        "launchDate": "2024-03-01"
+    },
+    {
+        "Sl.No": 6,
+        "name": "Wanderlust - Travel Blog",
+        "description": "A travel blog platform where users can share their travel experiences, photos, and tips. Built using Next.js and MongoDB.",
+        "link": "/wanderlust",
+        "preview-img": "wanderlust",
+        "category": "Blog",
+        "tags": [
+            "Travel",
+            "Next.js",
+            "MongoDB",
+            "User-generated Content"
+        ],
+        "techStack": [
+            "Next.js",
+            "Tailwind CSS",
+            "MongoDB",
+            "Node.js"
+        ],
+        "dummy": true,
+        "status": "Completed",
+        "launchDate": "2023-08-15"
+    },
+    {
+        "Sl.No": 7,
+        "name": "FitTrack - Fitness Tracker App",
+        "description": "A fitness tracking app for logging workouts and tracking progress. Developed with Next.js and MongoDB for real-time data storage.",
+        "link": "/fittrack",
+        "preview-img": "fittrack",
+        "category": "Mobile App",
+        "tags": [
+            "Fitness",
+            "Next.js",
+            "MongoDB",
+            "User Progress"
+        ],
+        "techStack": [
+            "Next.js",
+            "Tailwind CSS",
+            "MongoDB",
+            "Node.js"
+        ],
+        "dummy": true,
+        "status": "In Progress",
+        "launchDate": "2024-04-10"
+    },
+    {
+        "Sl.No": 8,
+        "name": "FreelancerHub - Freelance Marketplace",
+        "description": "A freelance marketplace where users can post and apply for jobs. Built with Next.js, MongoDB, and integrated Stripe payment gateway.",
+        "link": "/freelancerhub",
+        "preview-img": "freelancerhub",
+        "category": "Marketplace",
+        "tags": [
+            "Freelance",
+            "Next.js",
+            "Stripe",
+            "MongoDB"
+        ],
+        "techStack": [
+            "Next.js",
+            "Tailwind CSS",
+            "MongoDB",
+            "Stripe",
+            "Node.js"
+        ],
+        "dummy": true,
+        "status": "In Progress",
+        "launchDate": "2024-05-01"
+    },
+    {
+        "Sl.No": 9,
+        "name": "RecipeShare - Recipe Sharing Platform",
+        "description": "A recipe-sharing platform where users can upload and share their favorite recipes. Powered by Next.js and MongoDB.",
+        "link": "/recipeshare",
+        "preview-img": "recipeshare",
+        "category": "Community Platform",
+        "tags": [
+            "Recipes",
+            "Next.js",
+            "MongoDB",
+            "Sharing"
+        ],
+        "techStack": [
+            "Next.js",
+            "Tailwind CSS",
+            "MongoDB",
+            "Node.js"
+        ],
+        "dummy": true,
+        "status": "Completed",
+        "launchDate": "2023-09-30"
+    },
+    {
+        "Sl.No": 10,
+        "name": "EduHub - Online Learning Platform",
+        "description": "An educational platform offering online courses, video lectures, and quizzes. Built using Next.js, MongoDB, and Tailwind CSS for the frontend.",
+        "link": "/eduhub",
+        "preview-img": "eduhub",
+        "category": "Education",
+        "tags": [
+            "Online Learning",
+            "Courses",
+            "Next.js",
+            "MongoDB"
+        ],
+        "techStack": [
+            "Next.js",
+            "Tailwind CSS",
+            "MongoDB",
+            "Node.js"
+        ],
+        "dummy": true,
+        "status": "In Progress",
+        "launchDate": "2024-06-01"
+    }
+]

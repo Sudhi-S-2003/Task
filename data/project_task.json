@@ -1,0 +1,25 @@
+[{
+    "Sl.No": 1,
+    "name": "electrochip - Electrical Service Platform",
+    "description": "A platform connecting customers with certified electrical service providers for installations, repairs, and maintenance. Features include service booking, provider reviews, and real-time tracking.",
+    "link": "/electrochip",
+    "preview-img": "/electrochip-images/images/logo.png",
+    "category": "Electrical Services",
+    "tags": [
+      "Service Booking",
+      "Electrical Maintenance",
+      "Repairs",
+      "Real-time Tracking"
+    ],
+    "techStack": [
+      "React.js",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "Bootstrap"
+    ],
+    "isDemo": false,
+    "status": "Under Development",
+    "launchDate": "2024-09-01"
+  }
+]
