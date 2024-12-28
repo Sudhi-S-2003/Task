@@ -1,6 +1,9 @@
+"use client";
 import Image from 'next/image';
-import CustomMap from "./CustomMap"
+import dynamic from 'next/dynamic';
 
+// Dynamically import the CustomMap with ssr: false
+const CustomMap = dynamic(() => import("./CustomMap"), { ssr: false });
 function Contact() {
   return (
     <div className="min-h-screen bg-white flex flex-col md:flex-row justify-center items-center p-6">
