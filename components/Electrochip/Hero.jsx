@@ -3,7 +3,7 @@ import Link from "next/link";
 import { useState, useEffect } from "react";
 
 function Hero() {
-    const images = Array.from({ length: 10 }, (_, index) => `/electrochip-images/images/about-img1.jpg`);
+    const images = Array.from({ length: 10 }, (_, index) => `/electrochip-images/images/slider-img.jpg`);
 
     const [currentIndex, setCurrentIndex] = useState(0);
     const [isAnimating, setIsAnimating] = useState(false);
@@ -58,7 +58,7 @@ function Hero() {
     return (
         <div className="flex justify-evenly mt-16 items-center flex-wrap h-[85vh]">
             <div className="text-center md:text-left">
-                <h1 className="text-4xl font-extrabold mb-4">
+                <h1 className="text-5xl font-bold mb-4">
                     Electrical <br />
                     Service<br />
                     Providers
