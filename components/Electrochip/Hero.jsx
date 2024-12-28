@@ -68,7 +68,7 @@ function Hero() {
                     <br />
                     readable content of a page when looking at its layout.
                 </p>
-                <Link href={"/contact"} className="px-7 py-3 bg-violet-700 text-yellow-50  rounded-3xl mt-11 block w-[150px] text-center font-semibold">
+                <Link href={"/electrochip/contact"} className="px-7 py-3 bg-violet-700 text-yellow-50  rounded-3xl mt-11 block w-[150px] text-center font-semibold">
                 Contact Us
                 </Link>
             </div>
