@@ -16,13 +16,13 @@ function Service() {
         />
       </h1>
       <div className='flex flex-col '>
-        <div className='flex justify-evenly mt-7'>
+        <div className='flex flex-col lg:flex-row items-center justify-evenly gap-7  mt-7'>
           <Card head={"Equipment installation"} desc={"There are many variations of passages of Lorem Ipsum available,"} image_url={"/electrochip-images/images/s1.png"} />
           <Card head={"Windmill Energy"} image_url={"/electrochip-images/images/s2.png"} desc={"There are many variations of passages of Lorem Ipsum available,"} active={true} />
           <Card head={"Equipment Maintenance"} image_url={"/electrochip-images/images/s3.png"} desc="There are many variations of passages of Lorem Ipsum available," />
 
         </div>
-        <div className='flex justify-center gap-7 mt-7'>
+        <div className='flex  flex-col sm:flex-row items-center  justify-center gap-7 mt-7'>
           <Card image_url={"/electrochip-images/images/s4.png"} head={"Offshore Engineering"} desc={"There are many variations of passages of Lorem Ipsum available,"} />
           <Card image_url={"/electrochip-images/images/s5.png"} head={'Electrical Wiring'} desc={"There are many variations of passages of Lorem Ipsum available,"} /></div>
       </div>

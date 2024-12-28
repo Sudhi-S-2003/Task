@@ -56,7 +56,7 @@ function Hero() {
     }, []);
 
     return (
-        <div className="flex justify-evenly mt-16 items-center flex-wrap h-[85vh]">
+        <div className="flex justify-evenly mt-16 items-center flex-wrap min-h-[85vh] pb-5">
             <div className="text-center md:text-left">
                 <h1 className="text-5xl font-bold mb-4">
                     Electrical <br />
@@ -68,13 +68,13 @@ function Hero() {
                     <br />
                     readable content of a page when looking at its layout.
                 </p>
-                <Link href={"/electrochip/contact"} className="px-7 py-3 bg-violet-700 text-yellow-50  rounded-3xl mt-11 block w-[150px] text-center font-semibold">
+                <Link href={"/electrochip/contact"} className="px-7 py-3 bg-violet-700 text-yellow-50  rounded-3xl mt-11 block w-[150px] text-center font-semibold m-auto md:m-[unset]">
                 Contact Us
                 </Link>
             </div>
 
             <div className="relative mt-8 md:mt-0">
-                <div className="border-violet-700 border-[5px] rounded-full w-[400px] h-[400px] overflow-hidden relative">
+                <div className="border-violet-700 border-[5px] rounded-full max-w-[400px]  md:h-[400px] overflow-hidden relative">
                     <div
                         className="flex transition-transform duration-500 ease-in-out"
                         style={{
@@ -89,7 +89,7 @@ function Hero() {
                                 <img
                                     src={image}
                                     alt={`About Image ${index}`}
-                                    className="w-[400px] h-[410px] object-cover"
+                                    className="md:max-w-[400px] md:h-[410px] object-cover"
                                 />
                             </div>
                         ))}

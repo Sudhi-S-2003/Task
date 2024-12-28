@@ -43,7 +43,7 @@ function Contact() {
         </div>
       </div>
 
-      <div className="w-1/3 m-8">
+      <div className="md:w-1/3 m-8">
         <CustomMap />
       </div>
     </div>
