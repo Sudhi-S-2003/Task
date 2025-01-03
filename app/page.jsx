@@ -83,9 +83,11 @@ function Page() {
           const TaskContent = (
             <div className="flex gap-3">
               <Image
-                src={obj.dummy
-                  ? `https://placehold.co/600x400/${randomBgColor?.substring(1)}/${randomTextColor}?text=${encodeText(obj["preview-img"])}` // Image URL for dummy images
-                  : obj["preview-img"] // Actual image URL for non-dummy images
+                src={
+                  obj.dummy
+                    ? `https://placehold.co/600x400/${randomBgColor?.substring(1)}/${randomTextColor}?text=${encodeText(obj["preview-img"])}`
+                    : obj["preview-img"] ||
+                    `https://placehold.co/600x400/${randomBgColor?.substring(1)}/${randomTextColor}?text=${encodeText(obj.name)}`
                 }
                 alt={`Preview of ${obj.name}`}
                 className="w-[60px] h-[60px] object-cover rounded-full"
@@ -93,6 +95,7 @@ function Page() {
                 width={500}
                 height={500}
               />
+
               <div>
                 <h3 className="font-bold text-xl">{obj.name}</h3>
                 <p className="text-sm text-gray-600">{obj.description}</p>

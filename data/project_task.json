@@ -21,5 +21,29 @@
     "isDemo": false,
     "status": "Under Development",
     "launchDate": "2024-09-01"
+  },
+  {
+    "Sl.No": 1,
+    "name": "Animate components",
+    "description": "A platform connecting customers with certified electrical service providers for installations, repairs, and maintenance. Features include service booking, provider reviews, and real-time tracking.",
+    "link": "/animate",
+    "preview-img": null,
+    "category": "Electrical Services",
+    "tags": [
+      "Service Booking",
+      "Electrical Maintenance",
+      "Repairs",
+      "Real-time Tracking"
+    ],
+    "techStack": [
+      "React.js",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "Bootstrap"
+    ],
+    "isDemo": false,
+    "status": "Under Development",
+    "launchDate": "2024-09-01"
   }
 ]
